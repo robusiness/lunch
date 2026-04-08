@@ -22,7 +22,6 @@ body {
 }
 .inline {
     display: inline;
-    flex-flow: row wrap;
 p, h1, img {
     display: flex-block;
     margin: 20px;
