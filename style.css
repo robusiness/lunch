@@ -3,9 +3,6 @@
     --shadow-color: #bababa;
     --text-color: #000000;
 }
-html {
-    cursor: none;
-}
 body {
     background-color: var(--background-color);
     font-family: "Zain", sans-serif;
