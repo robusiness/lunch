@@ -20,8 +20,8 @@ body {
     box-sizing: border-box;
     margin: 20px;
 }
-.flex {
-    display: flex;
+.inline {
+    display: inline;
     flex-flow: row wrap;
 p, h1, img {
     display: flex-block;
