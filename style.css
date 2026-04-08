@@ -2,6 +2,7 @@
     --background-color: #ffffff;
     --shadow-color: #bababa;
     --text-color: #000000;
+    --visible: inline;
 }
 body {
     background-color: var(--background-color);
@@ -28,4 +29,7 @@ h1, form {
 }
 h1 {
     font-size: 3em;
+}
+.form {
+    display: --hidden;
 }
