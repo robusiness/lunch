@@ -17,25 +17,15 @@ body {
     border-radius: 20px;
     padding: 3px;
     box-sizing: border-box;
-    margin: 20px;
-    text-align: center;
+    margin: auto;
 }
 .inline {
     display: inline;
 }
-p, h1, img {
-    display: flex-block;
+h1, form {
     margin: 20px;
+    text-align: center;
 }
 h1 {
     font-size: 3em;
-}
-h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-form {
-    text-align: center;
 }
