@@ -1,0 +1,40 @@
+:root {
+    --background-color: #ffffff;
+    --shadow-color: #bababa;
+    --text-color: #000000;
+}
+html {
+    cursor: none;
+}
+body {
+    background-color: var(--background-color);
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+}
+.box {
+    box-shadow: 0px 0px 10px var(--shadow-color);
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+p, h1, img {
+    display: flex-block;
+    margin: 20px;
+}
+h1 {
+    font-size: 3em;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
