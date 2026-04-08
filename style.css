@@ -12,7 +12,6 @@ body {
 }
 .box {
     box-shadow: 0px 0px 10px var(--shadow-color);
-    display: flex;
     width: fit-content;
     height: fit-content;
     border-radius: 20px;
