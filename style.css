@@ -31,5 +31,5 @@ h1 {
     font-size: 3em;
 }
 .form {
-    display: var(--hidden);
+    display: var(--visible);
 }
