@@ -22,6 +22,7 @@ body {
 }
 .inline {
     display: inline;
+}
 p, h1, img {
     display: flex-block;
     margin: 20px;
