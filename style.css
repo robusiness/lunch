@@ -18,10 +18,10 @@ body {
     padding: 3px;
     box-sizing: border-box;
     margin: 20px;
+    text-align: center;
 }
 .inline {
     display: inline;
-    margin: auto;
 }
 p, h1, img {
     display: flex-block;
