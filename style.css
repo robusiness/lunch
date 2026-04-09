@@ -2,7 +2,8 @@
     --background-color: #ffffff;
     --shadow-color: #bababa;
     --text-color: #000000;
-    --visible: inline;
+    --form-visible: inline;
+    --lunch-visible: none;
 }
 body {
     background-color: var(--background-color);
@@ -31,5 +32,8 @@ h1 {
     font-size: 3em;
 }
 .form {
-    display: var(--visible);
+    display: var(--form-visible);
+}
+.lunch {
+    display: var(--lunch-visible);
 }
