@@ -37,9 +37,9 @@ function calculateText(red, green, blue) {
 
 let r = document.querySelector(':root');
 let shadowDifference = 120;
-let red = '10';
-let green = '10';
-let blue = '10';
+let red = 'ff';
+let green = 'ff';
+let blue = 'ff';
 let backgroundColorHex = '#' + red + green + blue;
 let backgroundColor = parseInt(backgroundColorHex, 16);
 let shadowColor = calculateShadow(red, green, blue, shadowDifference);
