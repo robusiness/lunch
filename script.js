@@ -37,9 +37,11 @@ function calculateText(red, green, blue) {
 
 function lunch(school) {
     if (school == null) {
-        r.style.setProperty('--visible', 'inline');
+        r.style.setProperty('--form-visible', 'inline');
+        r.style.setProperty('--lunch-visible', 'none');
     } else {
-        r.style.setProperty('--visible', 'none');
+        r.style.setProperty('--form-visible', 'none');
+        r.style.setProperty('--lunch-visible', 'inline');
     }
 }
 
