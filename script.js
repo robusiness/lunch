@@ -35,6 +35,10 @@ function calculateText(red, green, blue) {
     return '#' + red + green + blue;
 }
 
+function lunch(school) {
+    console.log(school);
+}
+
 let r = document.querySelector(':root');
 let shadowDifference = 120;
 let red = 'ff';
@@ -44,6 +48,8 @@ let backgroundColorHex = '#' + red + green + blue;
 let backgroundColor = parseInt(backgroundColorHex, 16);
 let shadowColor = calculateShadow(red, green, blue, shadowDifference);
 let textColor = calculateText(red, green, blue);
+
+lunch(school);
 
 r.style.setProperty('--background-color', backgroundColorHex);
 r.style.setProperty('--shadow-color', shadowColor);
