@@ -48,8 +48,9 @@ let backgroundColorHex = '#' + red + green + blue;
 let backgroundColor = parseInt(backgroundColorHex, 16);
 let shadowColor = calculateShadow(red, green, blue, shadowDifference);
 let textColor = calculateText(red, green, blue);
+let params = new URLSearchParams(window.location.search);
 
-lunch(school);
+lunch(params.get('school');
 
 r.style.setProperty('--background-color', backgroundColorHex);
 r.style.setProperty('--shadow-color', shadowColor);
