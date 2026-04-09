@@ -36,7 +36,8 @@ function calculateText(red, green, blue) {
 }
 
 function lunch(school) {
-    lunch = null;
+    let lunch = null;
+    let date = new Date();
     if (school == null) {
         r.style.setProperty('--form-visible', 'inline');
         r.style.setProperty('--lunch-visible', 'none');
@@ -49,7 +50,7 @@ function lunch(school) {
     } else {
         lunch = null;
     }
-    console.log(lunch);
+    console.log(lunch[date.getDate()]);
 }
 
 let r = document.querySelector(':root');
