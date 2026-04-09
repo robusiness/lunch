@@ -36,7 +36,11 @@ function calculateText(red, green, blue) {
 }
 
 function lunch(school) {
-    console.log(school);
+    if (school == null) {
+        r.style.setProperty('--visible', inline);
+    } else {
+        r.style.setProperty('--visible', none);
+    }
 }
 
 let r = document.querySelector(':root');
@@ -49,8 +53,9 @@ let backgroundColor = parseInt(backgroundColorHex, 16);
 let shadowColor = calculateShadow(red, green, blue, shadowDifference);
 let textColor = calculateText(red, green, blue);
 let params = new URLSearchParams(window.location.search);
+let school = params.get('school');
 
-lunch(params.get('school'));
+lunch(school);
 
 r.style.setProperty('--background-color', backgroundColorHex);
 r.style.setProperty('--shadow-color', shadowColor);
