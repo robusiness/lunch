@@ -49,6 +49,7 @@ function lunch(school) {
     } else {
         lunch = null;
     }
+    console.log(lunch);
 }
 
 let r = document.querySelector(':root');
