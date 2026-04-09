@@ -51,6 +51,7 @@ function lunch(school) {
         lunch = null;
     }
     console.log(lunch[date.getDate()-1]);
+    document.getElementById('lunch').textContent = lunch[date.getDate()-1];
 }
 
 let r = document.querySelector(':root');
