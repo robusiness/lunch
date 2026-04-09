@@ -50,7 +50,7 @@ function lunch(school) {
     } else {
         lunch = null;
     }
-    console.log(lunch[date.getDate()]);
+    console.log(lunch[date.getDate()-1]);
 }
 
 let r = document.querySelector(':root');
