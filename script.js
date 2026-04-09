@@ -37,9 +37,9 @@ function calculateText(red, green, blue) {
 
 function lunch(school) {
     if (school == null) {
-        r.style.setProperty('--visible', inline);
+        r.style.setProperty('--visible', 'inline');
     } else {
-        r.style.setProperty('--visible', none);
+        r.style.setProperty('--visible', 'none');
     }
 }
 
