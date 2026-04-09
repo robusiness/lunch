@@ -36,12 +36,18 @@ function calculateText(red, green, blue) {
 }
 
 function lunch(school) {
+    lunch = null;
     if (school == null) {
         r.style.setProperty('--form-visible', 'inline');
         r.style.setProperty('--lunch-visible', 'none');
     } else {
         r.style.setProperty('--form-visible', 'none');
         r.style.setProperty('--lunch-visible', 'inline');
+    }
+    if (school == "cems") {
+        lunch = ["Sub Sandwich, Chips, Baked Beans", "No School", "No School", "Weekend", "Weekend", "No School", "Chicken Nuggets, Mac N Cheese, Roll, Green Beans", "Hot Dog, Bun, Baked Beans", "Nachos, Taco Meat, Chips, Refried Beans, Toppings OR Pizza Fun Lunch", "Fish Sticks, French Fries, Peas", "Weekend", "Weekend", "Hamburger, Bun, Cheese, Toppings, Baked Beans", "Chicken Alfredo, Chicken, Sauce, Broccoli, Breadstick", "Pizza Dippers, Marinara Sauce, Green Beans", "Chicken & Gravy, Mashed Potatoes, Peas, Roll", "Pancakes, Smiley Fries, Yogurt", "Weekend", "Weekend", "Chicken Cordon Bleu, Bun, Mac N Cheese, Baked Beans", "Mashed Potato Bowl Day! Popcorn Chicken, Mashed Potatoes, Corn, Roll", "Earth Day: Pepperoni Pizza, Peas, Chocolate Pudding Dirt", "Orange Chicken, Rice, Broccoli, Egg Roll, Fortune Cookie", "Grilled Cheese, Tomato Soup, Green Beans", "Weekend", "Weekend", "BBQ Chicken, Bun, Sun Chips, Baked Beans", "Tacos, Taco Meat, Tortilla, Shells, Refried Beans, Toppings", "Stuffed Crust Pizza, Green Beans", "Spaghetti & Meatballs, Marinara Sauce, Alfredo Sauce, Garlic Bread, Broccoli"];
+    } else {
+        lunch = null;
     }
 }
 
