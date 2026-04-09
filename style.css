@@ -24,7 +24,7 @@ body {
 .inline {
     display: inline;
 }
-h1, form {
+h1, h3, form {
     margin: 20px;
     text-align: center;
 }
